@@ -7,18 +7,18 @@ import com.velocitypowered.api.plugin.Plugin;
 import org.slf4j.Logger;
 
 @Plugin(
-        id = "jedisdependency",
-        name = "JedisDependency",
+        id = "mongodbdependency",
+        name = "MongoDBDependency",
         version = "0.1",
         url = "furkan.studio",
         authors = {"OnwexryS"}
 )
-public class JedisDependency {
+public class MongoDBDependency {
     private final Logger logger;
 
 
     @Inject
-    public JedisDependency(Logger logger) {
+    public MongoDBDependency(Logger logger) {
         this.logger = logger;
     }
     @Subscribe

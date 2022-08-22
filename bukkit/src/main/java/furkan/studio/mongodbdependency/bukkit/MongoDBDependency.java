@@ -2,10 +2,10 @@ package furkan.studio.mongodbdependency.bukkit;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class JedisDependency extends JavaPlugin {
+public class MongoDBDependency extends JavaPlugin {
 
     public void onEnable() {
-        getServer().getConsoleSender().sendMessage("Jedis Dependency initialized");
+        getServer().getConsoleSender().sendMessage("MongoDB Dependency initialized");
     }
 
     @Override
