@@ -23,6 +23,7 @@ public class MongoDBDependency {
     }
     @Subscribe
     public void onProxyInitialization(ProxyInitializeEvent event) {
+        logger.info("MongoDB Dependency initialized");
         logger.info("Jedis Dependency initialized");
     }
 }
